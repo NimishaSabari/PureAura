@@ -1,0 +1,32 @@
+/* Carouselpage.css */
+.carousel-slider .slick-slide {
+    margin:0 0px; /* Adjust the margin to create the gap */
+  }
+  
+  .carousel-slider .slick-list {
+    margin: -2px; /* Adjust margin to account for padding */
+  }
+  
+  .carousel-slider .slick-arrow {
+    z-index: 1; /* Ensure arrows are on top of slides */
+  }
+  
+  /* Optional: adjust the positioning of arrows if needed */
+  .carousel-slider .slick-prev {
+    left: -35px; /* Adjust based on your design */
+  }
+  .carousel-slider .slick-prev {
+    top: 235px; /* Adjust based on your design */
+  }
+  
+  .carousel-slider .slick-next {
+    right: -35px; /* Adjust based on your design */
+  }
+  .carousel-slider .slick-next {
+    top: 235px; /* Adjust based on your design */
+  }
+ 
+  .carousel-slide-item {
+    padding: 0 10px; /* Ensure the item itself has padding */
+  }
+  
